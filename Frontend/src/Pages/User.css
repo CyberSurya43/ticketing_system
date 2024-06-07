@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outer-grid-box{
+  display:grid;
+  height:100vh;
+  grid-template-rows:6% 90% 4%;
+}
+.navbar{
+  background-color:#0F2C59;
+  color:w;
+}
+.footer{
+  background-color:#0F2C59;
+  color:white;
+}
+.inner-grid-box{
+  display:grid;
+  grid-template-columns: 15% 85%;
+}
+.side{
+  display: grid;
+  background-color:#0F2C59;
+}
+.content{
+  background-color:white;
+}
+.options{
+  height:50px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color:#0F2C59;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.btn{
+  background-color: #0F2C59;
+  color:white;
+}
+.textarea{
+  resize: none;
+  border-radius: 15px;
+}

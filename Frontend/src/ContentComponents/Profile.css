@@ -1,0 +1,45 @@
+.profile-gridbox{
+    @apply  grid grid-cols-[40%,60%] h-[90vh];
+}
+.inner-profile-gridbox{
+   @apply grid grid-rows-[50%,50%]
+}
+.subdiv-1{
+    @apply w-[55%] h-[80vh] bg-[skyblue] rounded-[10px] mx-auto my-auto shadow-2xl 
+}
+.subdiv-2{
+    @apply w-[70%] h-[40vh] bg-[skyblue] rounded-[10px] mx-auto my-auto shadow-2xl 
+}
+.popup{
+    @apply bg-[skyblue] h-[20vh] w-[70%] rounded-[10px] mx-auto shadow-2xl
+}
+.text{
+    @apply text-center mx-auto mt-[20px] text-2xl
+}
+.img-box{
+    @apply w-[45%] h-[25%] mt-[30px] mx-auto
+}
+.image{
+    @apply h-[100%] w-[100%] object-cover rounded-full items-center
+}
+.small-box{
+    @apply mt-[20px] h-[40%] w-[90%] bg-[#ffffff30] rounded-[10px] shadow-2xl mx-auto p-[10px]
+}
+.opt{
+    @apply p-[5px] rounded-[10px] bg-white w-[25%]
+}
+.option-1{
+    @apply p-[5px] rounded-[10px] bg-white w-[30%]
+}
+.spl{
+    @apply bg-[#0F2C59] text-white
+}
+.option-2{
+    @apply text-xl flex items-center justify-around w-[50%] mx-auto mt-[40px] p-[5px] rounded-[10px]  bg-[#0F2C59] text-white
+}
+.visible{
+    @apply opacity-100 
+}
+.invisible{
+    @apply opacity-0
+}
